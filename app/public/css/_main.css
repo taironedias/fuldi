@@ -12,11 +12,10 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    margin: 0 20%;
 }
 
 header {
-    margin: 3.5% 0;
+    margin: 2.5% 20%;
 }
 
 header div {
@@ -52,6 +51,7 @@ header div {
     border-radius: 30px;
     padding-left: 4.3%;
     padding-right: 7.1%;
+    margin: 0 20%;
 }
 
 .banner .infos {
@@ -77,15 +77,14 @@ header div {
 }
 
 h2.accessed {
-    margin-top: 4.5%;
-    margin-bottom: 1.8%;
+    margin: 3.5% 20% 0.8%; /* top left-right bottom */
     font-weight: bold;
     line-height: 28px;
     color: #111;
 }
 
 .cards {
-    margin: 0 auto;
+    margin: 0 20%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
