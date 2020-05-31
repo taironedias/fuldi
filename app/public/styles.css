@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --color-primary: #FBDFDB;
+}
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 20%;
+}
+
+header {
+    margin: 3.5% 0;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+.links img {
+    margin-right: 6.1%;
+}
+
+.links img:hover {
+    cursor: pointer;
+}
+
+.links a {
+    font-size: 16px;
+    color: #111;
+    text-decoration: none;
+    margin-left: 2.1%;
+    line-height: 19px;
+}
+
+.links a:hover {
+    color: #e68577;
+    transition: color 300ms;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    background: var(--color-primary);
+    border-radius: 30px;
+    padding-left: 4.3%;
+    padding-right: 7.1%;
+}
+
+.banner .infos {
+    margin: 10.6% 0;
+}
+
+.banner .infos h1 {
+    color: #111;
+    line-height: 38px;
+    font-weight: bold;
+}
+
+.banner .infos p {
+    width: 50%;
+    margin-top: 0.9%;
+    line-height: 28px;
+    color: #676767;
+}
+
+.banner .chef {
+    display: flex;
+    margin-top: 6%;
+}
+
+h2.accessed {
+    margin-top: 4.5%;
+    margin-bottom: 1.8%;
+    font-weight: bold;
+    line-height: 28px;
+    color: #111;
+}
+
+.cards {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.cards .card {
+    display: grid;
+    cursor: pointer;
+}
+
+.cards .card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.cards .card h3 {
+    margin-top: 3.8%;
+    color: #111111;
+    line-height: 21px;
+    font-weight: normal;
+}
+
+.cards .card span {
+    padding-top: 1.5%;
+    color: #777;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #eee;
+}
+
+footer span {
+    font-size: 14px;
+    color: #999;
+    line-height: 16px;
+}
+
+footer span a {
+    text-decoration: none;
+    color: #444;
+}
+
+footer span a:hover {
+    color: #404ACA;
+    transition: color 300ms;
+}

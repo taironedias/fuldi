@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        {% block head %}
+            <title>Fuldi</title>
+        {% endblock %}
+
+        <link rel="stylesheet" href="/styles.css">
+    </head>
+
+    <body>
+        {% block header %}
+            <header class="links">
+                <div>
+                    <img src="/logo.png" alt="Logo Fuldi">
+                    <a href="/" target="_blank" rel="noopener noreferrer">Sobre</a>
+                    <a href="/" target="_blank" rel="noopener noreferrer">Receitas</a>
+                </div>
+            </header>
+        {% endblock %}
+
+        {% block content %} {% endblock %}
+
+        <footer>
+            <span>Todos direitos reservados, receitas Fuldi. Creating by <a href="https://github.com/taironedias" target="_blank">Tairone Dias</a>.</span>
+        </footer>
+    </body>
+</html>
