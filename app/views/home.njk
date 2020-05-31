@@ -8,27 +8,19 @@
             <p>Aprenda a construir os melhores pratos com receitas criadas por profissionais do mundo inteiro.</p>
         </div>
         <div class="chef">
-            <img src="/chef.png" alt="Cartoon Chef">
+            <img src="/image/chef.png" alt="Cartoon Chef">
         </div>
     </div>
 
     <h2 class="accessed">Mais acessadas</h2>
     <section class="cards">
-        <div class="card">
-            <img src="/burger.png" alt="Burger">
-            <h3>Triplo bacon burger</h3>
-            <span>por Jorge Relato</span>
-        </div>
-        <div class="card">
-            <img src="/pizza.png" alt="Pizza">
-            <h3>Pizza 4 estações</h3>
-            <span>por Fabiana Melo</span>
-        </div>
-        <div class="card">
-            <img src="/espaguete.png" alt="Espaguete">
-            <h3>Espaguete ao alho</h3>
-            <span>por Júlia Kinoto</span>
-        </div>
+        {% for item in items %}
+            <div class="card">
+                <img src="/image/{{ item.image }}" alt="{{ item.name }}">
+                <h3>{{ item.name }}</h3>
+                <span>por {{ item.chef }}</span>
+            </div>
+        {% endfor %}
     </section>
 
 {% endblock content %}
