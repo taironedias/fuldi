@@ -1,0 +1,44 @@
+[
+    {
+        "id": "fD1",
+        "name": "Triplo bacon burger",
+        "chef": "Jorge Relato",
+        "image": "burger.png",
+        "accessed": 50
+    },
+    {
+        "id": "fD2",
+        "name": "Pizza 4 estações",
+        "chef": "Fabiana Melo",
+        "image": "pizza.png",
+        "accessed": 20
+    },
+    {
+        "id": "fD3",
+        "name": "Espaguete ao alho",
+        "chef": "Júlia Kinoto",
+        "image": "espaguete.png",
+        "accessed": 5
+    },
+    {
+        "id": "fD4",
+        "name": "Lasanha mac n\" cheese",
+        "chef": "Juliano Vieira",
+        "image": "lasanha.png",
+        "accessed": 150
+    },
+    {
+        "id": "fD5",
+        "name": "Docinhos pão-do-céu",
+        "chef": "Ricardo Golvea",
+        "image": "doce.png",
+        "accessed": 8
+    },
+    {
+        "id": "fD6",
+        "name": "Asinhas de frango ao barbecue",
+        "chef": "Vania Steroski",
+        "image": "asinhas.png",
+        "accessed": 25
+    }
+]
