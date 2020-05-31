@@ -1,5 +1,6 @@
 const express = require('express')
 const nunjucks = require('nunjucks')
+const {foods, about} = require('./data/index');
 
 const server = express()
 
