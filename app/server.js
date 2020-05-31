@@ -29,7 +29,8 @@ server.get('/', function(req, res) {
     return res.render('home', {items: foodsAccessed})
 })
 
-    return res.render('home', {item: home})
+server.get('/about', function(req, res) {
+    return res.render('about', {about})
 })
 
 server.use(function(req, res) {
