@@ -1,0 +1,17 @@
+{% extends 'layout.njk' %}
+
+{% block head %}
+    <title>Fuldi - About</title>
+    <link rel="stylesheet" href="/css/about.css">
+{% endblock %}
+
+{% block content %}
+
+    <section class="page-about">
+        {% for item in about %}
+            <h3 class="title {{ 'highlight' if item.highlight }}">{{ item.title }}</h3>
+            <p>{{ item.content }}</p>
+        {% endfor %}
+    </section>
+
+{% endblock content %}
