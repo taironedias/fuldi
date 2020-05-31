@@ -1,0 +1,22 @@
+.page-not-found {
+    text-align: center;
+}
+
+.page-not-found h1 {
+    line-height: 28px;
+    padding: 30px 0;
+    font-size: 38px;
+    color: #444;
+}
+
+.page-not-found img {
+    padding: 30px 0;
+}
+
+.page-not-found p {
+    max-width: 50%;
+    line-height: 28px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #555;
+}
