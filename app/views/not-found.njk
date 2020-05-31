@@ -1,1 +1,16 @@
-<h1>Page not found</h1>
+{% extends 'layout.njk' %}
+
+{% block head %}
+    <title>Fuldi - Not Found</title>
+    <link rel="stylesheet" href="/css/not-found.css">
+{% endblock %}
+
+{% block content %}
+
+    <section class="page-not-found">
+        <h1>Opss... algo de errado não está certo</h1>
+        <img src="/image/oh-no.png" alt="Page Not Found">
+        <p>Parece que você tentou acessar uma página que não está mais disponível ou que não existe. O que temos para lhe dizer: <strong>"Tava ruim, tava bom.. mas parece que piorou"</strong></p>
+    </section>
+
+{% endblock content %}
