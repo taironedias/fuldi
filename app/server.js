@@ -14,9 +14,19 @@ nunjucks.configure('views', {
 })
 
 server.get('/', function(req, res) {
-    const home = {
-        title: 'Tairone'
-    }
+    foods.sort(function(a, b) {
+        if (a.accessed > b.accessed) {
+            return -1
+        } else if (a.accessed < b.accessed) {
+            return 1
+        }
+        return 0
+    })
+
+    const foodsAccessed = foods.slice(0, 4)
+
+    return res.render('home', {items: foodsAccessed})
+})
 
     return res.render('home', {item: home})
 })
