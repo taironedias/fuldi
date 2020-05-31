@@ -1,0 +1,21 @@
+section {
+    margin-bottom: 150px;
+}
+
+h3 {
+    line-height: 28px;
+    color: #111111;
+}
+
+h3.highlight {
+    font-size: 24px;
+}
+
+p {
+    color: #444;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 1.8%;
+    margin-bottom: 2.7%;
+    text-align: justify;
+}
