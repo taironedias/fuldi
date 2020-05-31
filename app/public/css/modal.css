@@ -1,0 +1,85 @@
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    margin: 0;
+}
+
+.modal-overlay .modal {
+    background-color: #fff;
+    /* width: 40%; */
+    width: 660px;
+    /* height: 50%; */
+    height: 413px;
+    margin: 20vh auto;
+    position: relative;
+    border-radius: 16px;
+}
+
+.modal-overlay .modal .close {
+    color: #000;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    cursor: pointer;
+}
+
+.modal-overlay .modal .close {
+    color: red;
+    transition: color 400ms;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-overlay .modal .modal-content {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    text-align: center;
+}
+
+.modal-content #image {
+    width: 600px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin: 2.7% 0 1.8%;
+}
+
+.modal-content #name {
+    margin-bottom: 0.4%;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 28px;
+    color: #111;
+}
+
+.modal-content #chef {
+    margin-bottom: 5.3%;
+    font-size: 16px;
+    color: #999;
+    line-height: 19px;
+}
+
+.modal-content #close {
+    font-size: 16px;
+    position: absolute;
+    bottom: 0;
+    color: #999;
+    width: 100%;
+    line-height: 19px;
+}
+
+.modal-content #close:hover {
+    cursor: pointer;
+    color: #e68577;
+    transition: color 400ms;
+}
